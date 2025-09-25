@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px; 
+  background-color: #f4f4f4; 
+  display: flex;
+  justify-content: center; 
+}
+.contenido {
+  display: flex;
+  width: 660px;       
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.izquierda {
+  background-color: #396ec9; 
+  color: white;
+  width: 32%;
+  padding: 20px;
+}
+.derecha {
+  width: 60%;
+  padding: 20px;
+}
+h1, h2, h3 {
+  margin-top: 0;
+}
+.mifoto {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mifoto img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.fortalezas, .idiomas, .habilidades {
+  margin-bottom: 20px;
+}
+ul {
+  padding-left: 20px;
+}
+.perfil {
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+
+/*----------------------------------------------------------*/
+
+.anm{
+  color: rgb(86, 0, 117);
+}
+
+.anm :hover{
+  height: 100%;
+  color: rgb(127, 255, 214)
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
